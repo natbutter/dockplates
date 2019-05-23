@@ -26,4 +26,4 @@ More details about GPlates here:
 [https://www.gplates.org/](https://www.gplates.org/)
 
 From my old research group:
-(https://www.earthbyte.org/](https://www.earthbyte.org/)
+[https://www.earthbyte.org/](https://www.earthbyte.org/)

@@ -11,6 +11,11 @@ If you make use of this image, please acknowledge the Sydney Informatics Hub at 
 sudo docker build . -t dockplates
 ```
 
+### Set your xhost to allow connections through docker
+```
+xhost +
+```
+
 ### Run with:
 ```
 sudo nvidia-docker run --rm -it -v `pwd`:/workspace -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY dockplates

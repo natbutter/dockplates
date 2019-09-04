@@ -31,7 +31,7 @@ RUN apt-get install -y --no-install-recommends libglu1-mesa
 WORKDIR /workspace
 
 #This doesn't work in the container because of wget Let's Encrypt certificates, instead of figuring it out I just downloaded it first and then copy it to the container
-#RUN wget -O gplates.deb "https://downloads.sourceforge.net/project/gplates/gplates/2.1/gplates-ubuntu-bionic_2.1_1_amd64.deb"
+#RUN wget -O gplates-ubuntu-xenial_2.1_1_amd64.deb "https://downloads.sourceforge.net/project/gplates/gplates/2.1/gplates-ubuntu-xenial_2.1_1_amd64.deb"
 COPY gplates-ubuntu-xenial_2.1_1_amd64.deb /workspace
 RUN dpkg -i gplates-ubuntu-xenial_2.1_1_amd64.deb 
 
